@@ -2,6 +2,10 @@
 
 Spheric 3D visualization of database "SELECT" results (including images) 
 
+MAIN file: fotos_hiper.php
+SUPPORTING FILES: jpg extensions and sql extension
+This example version uses MYSQL as database server.
+
 // "Ver3D" Software. (executable filename: fotos_hiper.php)
 
 // This is free software for spheric visualization  of "SELECT" results obtained from a QUERY applied to a given database. 
