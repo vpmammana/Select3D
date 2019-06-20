@@ -2,9 +2,11 @@
 
 Spheric 3D visualization of database "SELECT" results (including images) 
 
-// This is free software for spheric visualization database "SELECT" results. 
+// "Ver3D" Software. (executable filename: fotos_hiper.php)
 
-// This version is for collaborative development. This version only works CHROME - Please, help to PORT it!
+// This is free software for spheric visualization  of "SELECT" results obtained from a QUERY applied to a given database. 
+
+// This version is for collaborative development. This version only works on CHROME - Please, help to PORT it!
 
 //
 
@@ -16,15 +18,25 @@ Spheric 3D visualization of database "SELECT" results (including images)
 
 //
 
-// A dummy database is provided in the file Ver3D.sql. Just upload it to MYSQL. The database is called Ver3D (translated to 
-English: something like "Watch3D" or "3DView").
+// A dummy database is provided in the file "Ver3D.sql". Just upload it to MYSQL using the command "mysql -u user -p Ver3D < 
 
-// The Ver3D database is constituted of 2 tables: eventos (events) and fotos (photos). The name "eventos" is totally 
-incidental, so change it for the name you prefer. 
+Ver3D.sql". Before uploading it, don't forget to create in on MYSQL prompt, by use of "create database Ver3D". Don't forget 
 
-// The tables of Ver3D database are as follows:
+to grant privileges to "desenvolvedor" user, through "grant all privileges on Ver3D.* to etc... etc...  
+
+// The database is called Ver3D (translated to English it would sound something like "Watch3D" or "3DView").
+
+// The "Ver3D" example database is available at the repository and it is constituted of 2 tables: eventos (events) and fotos 
+
+(photos). The name "eventos" is totally incidental, so change it for the name you prefer. 
+
+// The tables of Ver3D database are described as follows:
 
 //
+
+// TABLE EVENTOS (disrefard the name of the table and change it for the name you prefer)
+
+// mysql> desc eventos;
 
 // TABLE EVENTOS (disrefard the name of the table and change it for the name you prefer)
 
